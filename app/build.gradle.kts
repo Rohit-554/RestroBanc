@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "1.9.22"
 }
 
 android {
@@ -56,8 +57,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(libs.material3)
-    implementation(libs.androidx.material3.window.size.class1)
 
     // Navigation
     implementation(libs.androidx.navigation.compose)
@@ -76,4 +75,6 @@ dependencies {
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
+
+    implementation(libs.androidx.material.icons.extended)
 }

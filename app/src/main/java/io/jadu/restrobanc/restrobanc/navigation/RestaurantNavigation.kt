@@ -6,13 +6,13 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.assignonebanc.ui.screens.CartScreen
-import com.example.assignonebanc.ui.screens.CuisineScreen
-import com.example.assignonebanc.ui.screens.HomeScreen
-import com.example.assignonebanc.viewmodel.RestaurantViewModel
+import io.jadu.restrobanc.restrobanc.ui.screens.CartScreen
+import io.jadu.restrobanc.restrobanc.ui.screens.CuisineScreen
+import io.jadu.restrobanc.restrobanc.ui.screens.HomeScreen
+import io.jadu.restrobanc.restrobanc.ui.viewmodel.RestaurantViewModel
 
 @Composable
-fun RestaurantNavigation(
+fun App(
     navController: NavHostController = rememberNavController(),
     viewModel: RestaurantViewModel = viewModel()
 ) {
