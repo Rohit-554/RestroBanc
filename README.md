@@ -4,6 +4,10 @@ This is a native Android app built as a technical assignment for OneBanc. It is 
 
 ---
 
+## Demo
+
+[restroApp.webm](https://github.com/user-attachments/assets/b25aab64-f0ff-4b4b-bb96-5cef0d49b6f0)
+
 ## ✅ Features
 
 - Built entirely in **Jetpack Compose**
@@ -12,10 +16,10 @@ This is a native Android app built as a technical assignment for OneBanc. It is 
 - Displays **Top 3 Famous Dishes**
 - Allows adding items with quantity
 - Displays cart with:
-   - Selected items
-   - Net total
-   - CGST (2.5%) and SGST (2.5%)
-   - Grand Total
+  - Selected items
+  - Net total
+  - CGST (2.5%) and SGST (2.5%)
+  - Grand Total
 - Supports placing order via API (`make_payment`)
 - **Language Toggle**: Switch between **Hindi and English**
 - No third-party libraries used (except OkHttp & kotlinx serialization if allowed)
@@ -47,9 +51,9 @@ This is a native Android app built as a technical assignment for OneBanc. It is 
 ### 3️⃣ Cart Screen
 - Shows added items grouped by cuisine
 - Displays:
-   - Net total
-   - CGST + SGST (2.5% each)
-   - Grand total
+  - Net total
+  - CGST + SGST (2.5% each)
+  - Grand total
 - "Place Order" button integrates with `make_payment` API
 
 ---
