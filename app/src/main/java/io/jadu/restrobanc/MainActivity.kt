@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import io.jadu.restrobanc.restrobanc.navigation.App
+import io.jadu.restrobanc.restrobanc.ui.screens.Screen
 import io.jadu.restrobanc.ui.theme.RestroBancTheme
 
 
@@ -17,12 +18,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+
             RestroBancTheme {
                 Surface (
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    modifier = Modifier.fillMaxSize()
                 ) {
-                    App()
+                    Screen()
                 }
             }
         }
